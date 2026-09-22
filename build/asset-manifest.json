@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/becho-market-app/static/css/main.be230050.css",
+    "main.js": "/becho-market-app/static/js/main.3020491b.js",
+    "index.html": "/becho-market-app/index.html",
+    "main.be230050.css.map": "/becho-market-app/static/css/main.be230050.css.map",
+    "main.3020491b.js.map": "/becho-market-app/static/js/main.3020491b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be230050.css",
+    "static/js/main.3020491b.js"
+  ]
+}

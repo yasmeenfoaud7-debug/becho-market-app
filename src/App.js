@@ -208,6 +208,7 @@ function App() {
           <div style={{ background: '#fff', padding: '20px', borderRadius: '14px', boxShadow: '0 2px 8px rgba(0,0,0,0.06)', textAlign: 'right' }}>
             <p style={{ margin: '10px 0', fontSize: '14px', color: '#333' }}>
               <strong>اسم العميل:</strong>
+              
             </p>
             <p style={{ margin: '10px 0', fontSize: '14px', color: '#333' }}>
               <strong>رقم الهاتف:</strong> 
