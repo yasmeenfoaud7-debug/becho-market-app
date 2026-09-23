@@ -161,76 +161,30 @@ const categories = [
         zIndex: 1000,
         direction: 'rtl'
       }}>
-       <button 
-          onClick={() => setTab('home')}
-          style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'center', color: tab === 'home' ? '#0b3b2c' : '#888', flex: 1 }}
-        >
-          <div style={{ fontSize: '18px' }}>🏠</div>
-          <span style={{ fontSize: '11px', fontWeight: tab === 'home' ? 'bold' : 'normal' }}>الرئيسية</span>
-        </button>
-
-       
-<button 
-          onClick={() => setTab('home')}
-          style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'center', color: tab === 'home' ? '#0b3b2c' : '#888', flex: 1 }}
-        >
-          <div style={{ fontSize: '18px' }}>🏠</div>
-          <span style={{ fontSize: '11px', fontWeight: tab === 'home' ? 'bold' : 'normal' }}>الرئيسية</span>
-        </button>
-
-        
-          
-
-        <button 
-          onClick={() => setTab('orders')}
-          style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'center', color: tab === 'orders' ? '#0b3b2c' : '#888', flex: 1 }}
-        >
-          <div style={{ fontSize: '18px' }}>📦</div>
-          <span style={{ fontSize: '11px', fontWeight: tab === 'orders' ? 'bold' : 'normal' }}>الطلبات</span>
-        </button>
-
-        <button 
-          onClick={() => setTab('profile')}
-          style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'center', color: tab === 'profile' ? '#0b3b2c' : '#888', flex: 1 }}
-        >
-          
-        </button>
-      </nav>
-
-
-     
-
-     
-      {tab === 'orders' && (
-        <div style={{ padding: '30px 20px', direction: 'rtl', textAlign: 'center' }}>
-          <h2>الطلبات السابقة 📦</h2>
-          <p>لا توجد طلبات سابقة</p>
-        </div>
-      )}
-
+      
+  
       {tab === 'profile' && (
         <div style={{ textAlign: 'center', padding: '30px 20px', direction: 'rtl' }}>
           <div style={{ fontSize: '40px', marginBottom: '10px' }}>👤</div>
-          <h2 style={{ color: '#0b3b2c', marginBottom: '15px' }}>حسابي</h2>
           
           <div style={{ background: '#fff', padding: '20px', borderRadius: '14px', boxShadow: '0 2px 8px rgba(0,0,0,0.06)', textAlign: 'right' }}>
             <p style={{ margin: '10px 0', fontSize: '14px', color: '#333' }}>
-              <strong>اسم العميل:</strong>
+              <strong>اسم العميل:</strong> {customerName}
             </p>
             <p style={{ margin: '10px 0', fontSize: '14px', color: '#333' }}>
-              <strong>رقم الهاتف:</strong> 
+              <strong>رقم الهاتف:</strong> 010xxxxxxxx
             </p>
             <p style={{ margin: '10px 0', fontSize: '14px', color: '#333' }}>
-              <strong>الطلب:</strong> 
+              <strong>الطلب:</strong> لا يوجد طلب نشط حالياً
             </p>
           </div>
         </div>
       )}
 
+      
+      </nav>
     </div>
   );
 }
 
 export default App;
-        
-
