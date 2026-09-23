@@ -161,7 +161,7 @@ const categories = [
         zIndex: 1000,
         direction: 'rtl'
       }}>
-        <button 
+       <button 
           onClick={() => setTab('home')}
           style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'center', color: tab === 'home' ? '#0b3b2c' : '#888', flex: 1 }}
         >
@@ -169,12 +169,13 @@ const categories = [
           <span style={{ fontSize: '11px', fontWeight: tab === 'home' ? 'bold' : 'normal' }}>الرئيسية</span>
         </button>
 
+        {/* زرار السلة مكان المفضلة */}
         <button 
-          onClick={() => setTab('favorites')}
-          style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'center', color: tab === 'favorites' ? '#0b3b2c' : '#888', flex: 1 }}
+          onClick={() => setTab('cart')}
+          style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'center', color: tab === 'cart' ? '#0b3b2c' : '#888', flex: 1 }}
         >
-          <div style={{ fontSize: '18px' }}>❤️</div>
-          <span style={{ fontSize: '11px', fontWeight: tab === 'favorites' ? 'bold' : 'normal' }}>المفضلة</span>
+          <div style={{ fontSize: '18px' }}>🛒</div>
+          <span style={{ fontSize: '11px', fontWeight: tab === 'cart' ? 'bold' : 'normal' }}>السلة</span>
         </button>
 
         <button 
@@ -196,7 +197,7 @@ const categories = [
 
 
       {tab === 'cart' && (
-        <div style={{ padding: '20px', direction: 'rtl', textAlign: 'center' }}>
+        <div style={{ padding: '30px 20px', direction: 'rtl', textAlign: 'center' }}>
           <h2>سلة المشتريات 🛒</h2>
           <p>السلة فارغة حالياً</p>
         </div>
@@ -204,7 +205,7 @@ const categories = [
 
      
       {tab === 'orders' && (
-        <div style={{ padding: '20px', direction: 'rtl', textAlign: 'center' }}>
+        <div style={{ padding: '30px 20px', direction: 'rtl', textAlign: 'center' }}>
           <h2>الطلبات السابقة 📦</h2>
           <p>لا توجد طلبات سابقة</p>
         </div>
@@ -218,7 +219,6 @@ const categories = [
           <div style={{ background: '#fff', padding: '20px', borderRadius: '14px', boxShadow: '0 2px 8px rgba(0,0,0,0.06)', textAlign: 'right' }}>
             <p style={{ margin: '10px 0', fontSize: '14px', color: '#333' }}>
               <strong>اسم العميل:</strong>
-              
             </p>
             <p style={{ margin: '10px 0', fontSize: '14px', color: '#333' }}>
               <strong>رقم الهاتف:</strong> 
@@ -230,12 +230,8 @@ const categories = [
         </div>
       )}
 
-      
-
-      
     </div>
   );
 }
-    
 
 export default App;
