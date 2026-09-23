@@ -177,6 +177,22 @@ const categories = [
           <div style={{ fontSize: '18px' }}>🛒</div>
           <span style={{ fontSize: '11px', fontWeight: tab === 'cart' ? 'bold' : 'normal' }}>السلة</span>
         </button>
+<button 
+          onClick={() => setTab('home')}
+          style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'center', color: tab === 'home' ? '#0b3b2c' : '#888', flex: 1 }}
+        >
+          <div style={{ fontSize: '18px' }}>🏠</div>
+          <span style={{ fontSize: '11px', fontWeight: tab === 'home' ? 'bold' : 'normal' }}>الرئيسية</span>
+        </button>
+
+        {/* زرار السلة مكان المفضلة */}
+        <button 
+          onClick={() => setTab('cart')}
+          style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'center', color: tab === 'cart' ? '#0b3b2c' : '#888', flex: 1 }}
+        >
+          <div style={{ fontSize: '18px' }}>🛒</div>
+          <span style={{ fontSize: '11px', fontWeight: tab === 'cart' ? 'bold' : 'normal' }}>السلة</span>
+        </button>
 
         <button 
           onClick={() => setTab('orders')}
@@ -235,3 +251,5 @@ const categories = [
 }
 
 export default App;
+        
+
