@@ -7,18 +7,18 @@ function App() {
   const [customerName] = useState('ياسمين فؤاد');
 
 const categories = [
-  { id: 1, name: "برجر", img: process.env.PUBLIC_URL + "/images/burger.png" },
-  { id: 2, name: "بيتزا", img: process.env.PUBLIC_URL + "/images/pizza.png" },
-  { id: 3, name: "مشويات", img: process.env.PUBLIC_URL + "/images/grills.png" },
-  { id: 4, name: "لحوم", img: process.env.PUBLIC_URL + "/images/meat.png" },
-  { id: 5, name: "شاورما", img: process.env.PUBLIC_URL + "/images/shawarma.png" },
-  { id: 6, name: "أكل بيتي", img: process.env.PUBLIC_URL + "/images/home-food.png" },
-  { id: 7, name: "حلويات", img: process.env.PUBLIC_URL + "/images/desserts.png" },
-  { id: 8, name: "سوبر ماركت", img: process.env.PUBLIC_URL + "/images/supermarket.png" },
-  { id: 9, name: "خضروات", img: process.env.PUBLIC_URL + "/images/vegetables.png" },
-  { id: 10, name: "فواكه", img: process.env.PUBLIC_URL + "/images/fruits.png" },
-  { id: 11, name: "صيدلية", img: process.env.PUBLIC_URL + "/images/pharmacy.png" },
-  { id: 12, name: "معجنات", img: process.env.PUBLIC_URL + "/images/bakery.png" },
+  { id: 1, name: "برجر", img: process.env.PUBLIC_URL + "/images/borgr.jpg" },
+  { id: 2, name: "بيتزا", img: process.env.PUBLIC_URL + "/images/pizza.jpg" },
+  { id: 3, name: "مشويات", img: process.env.PUBLIC_URL + "/images/grills.jpg" },
+  { id: 4, name: "لحوم", img: process.env.PUBLIC_URL + "/images/meat.jpg" },
+  { id: 5, name: "شاورما", img: process.env.PUBLIC_URL + "/images/shawarma.jpg" },
+  { id: 6, name: "أكل بيتي", img: process.env.PUBLIC_URL + "/images/home-food.jpg" },
+  { id: 7, name: "حلويات", img: process.env.PUBLIC_URL + "/images/desserts.jpg" },
+  { id: 8, name: "سوبر ماركت", img: process.env.PUBLIC_URL + "/images/supermarket.jpg" },
+  { id: 9, name: "خضروات", img: process.env.PUBLIC_URL + "/images/vegetables.jpg" },
+  { id: 10, name: "فواكه", img: process.env.PUBLIC_URL + "/images/fruits.jpg" },
+  { id: 11, name: "صيدلية", img: process.env.PUBLIC_URL + "/images/pharmacy.jpg" },
+  { id: 12, name: "معجنات", img: process.env.PUBLIC_URL + "/images/baker.jpg" },
 ];
   
 
