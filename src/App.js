@@ -141,8 +141,7 @@ const categories = [
 
         </div>
       </div>
-
-     {/* شريط التنقل السفلي */}
+{/* شريط التنقل السفلي */}
       <nav style={{
         position: 'fixed',
         bottom: 0,
@@ -155,14 +154,14 @@ const categories = [
         display: 'flex',
         justifyContent: 'space-around',
         padding: '10px 0',
-        borderBottomLeftRadius: '20px',
-        borderBottomRightRadius: '20px',
+        borderTopLeftRadius: '15px',
+        borderTopRightRadius: '15px',
         boxShadow: '0 -4px 10px rgba(0,0,0,0.08)',
         zIndex: 1000,
         direction: 'rtl'
       }}>
         
-        <button
+        <button 
           onClick={() => setTab('home')}
           style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'center', color: tab === 'home' ? '#0b3b2c' : '#888', flex: 1 }}
         >
@@ -170,7 +169,7 @@ const categories = [
           <span style={{ fontSize: '11px', fontWeight: tab === 'home' ? 'bold' : 'normal' }}>الرئيسية</span>
         </button>
 
-        <button
+        <button 
           onClick={() => setTab('orders')}
           style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'center', color: tab === 'orders' ? '#0b3b2c' : '#888', flex: 1 }}
         >
@@ -178,7 +177,7 @@ const categories = [
           <span style={{ fontSize: '11px', fontWeight: tab === 'orders' ? 'bold' : 'normal' }}>الطلبات</span>
         </button>
 
-        <button
+        <button 
           onClick={() => setTab('profile')}
           style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'center', color: tab === 'profile' ? '#0b3b2c' : '#888', flex: 1 }}
         >
@@ -186,6 +185,9 @@ const categories = [
           <span style={{ fontSize: '11px', fontWeight: tab === 'profile' ? 'bold' : 'normal' }}>حسابي</span>
         </button>
       </nav>
+     
+        
+        
 
     </div>
   );
