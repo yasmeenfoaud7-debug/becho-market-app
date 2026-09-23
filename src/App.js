@@ -6,7 +6,7 @@ function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [customerName] = useState('ياسمين فؤاد');
 
-const categories = [
+  const categories = [
   { id: 1, name: "لحوم", image: "/images/borgr.jpg" },
   { id: 2, name: "مشويات", image: "/images/meshwiyat.jpg" },
   { id: 3, name: "بيتزا", image: "/images/petza.jpg" },
@@ -20,6 +20,7 @@ const categories = [
   { id: 11, name: "فواكه", image: "/images/fruit.jpg" },
   { id: 12, name: "خضروات", image: "/images/grocery-bag.jpg" }
 ];
+
   
 
   return (
