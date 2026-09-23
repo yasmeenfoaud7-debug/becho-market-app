@@ -7,20 +7,19 @@ function App() {
   const [customerName] = useState('ياسمين فؤاد');
 
   const categories = [
-  { id: 1, name: "لحوم", image: "/images/borgr.jpg" },
-  { id: 2, name: "مشويات", image: "/images/meshwiyat.jpg" },
-  { id: 3, name: "بيتزا", image: "/images/petza.jpg" },
-  { id: 4, name: "برجر", image: "/images/burger-comb.jpg" },
-  { id: 5, name: "سوبر ماركت", image: "/images/superma.jpg" },
-  { id: 6, name: "حلويات", image: "/images/halwayat.jpg" },
-  { id: 7, name: "أكل بيتي", image: "/images/homemad.jpg" },
-  { id: 8, name: "شاورما", image: "/images/shwrmajpg.jpg" },
-  { id: 9, name: "معجنات", image: "/images/stuffed-veggies.jpg" },
-  { id: 10, name: "صيدلية", image: "/images/pharmacy.jpg" },
-  { id: 11, name: "فواكه", image: "/images/fruit.jpg" },
-  { id: 12, name: "خضروات", image: "/images/grocery-bag.jpg" }
+  { name: 'برجر', img: process.env.PUBLIC_URL + '/images/borgr.jpg' },
+  { name: 'بيتزا', img: process.env.PUBLIC_URL + '/images/petza.jpg' },
+  { name: 'مشويات', img: process.env.PUBLIC_URL + '/images/meshwiyat.jpg' },
+  { name: 'لحوم', img: process.env.PUBLIC_URL + '/images/meat.jpg' },
+  { name: 'شاورما', img: process.env.PUBLIC_URL + '/images/shwrmajpg.jpg' },
+  { name: 'أكل بيتي', img: process.env.PUBLIC_URL + '/images/homemad.jpg' },
+  { name: 'حلويات', img: process.env.PUBLIC_URL + '/images/halwayat.jpg' },
+  { name: 'سوبر ماركت', img: process.env.PUBLIC_URL + '/images/superma.jpg' },
+  { name: 'معجنات', img: process.env.PUBLIC_URL + '/images/stuffed-veggies.jpg' },
+  { name: 'خضروات', img: process.env.PUBLIC_URL + '/images/grocery-bag.jpg' },
+  { name: 'فواكه', img: process.env.PUBLIC_URL + '/images/fruit.jpg' },
+  { name: 'صيدلية', img: process.env.PUBLIC_URL + '/images/pharmacy.jpg' }
 ];
-
   
 
   return (
