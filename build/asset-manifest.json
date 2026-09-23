@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/becho-market-app/static/css/main.be230050.css",
-    "main.js": "/becho-market-app/static/js/main.c2a6299f.js",
+    "main.js": "/becho-market-app/static/js/main.c18d4f8e.js",
     "index.html": "/becho-market-app/index.html",
     "main.be230050.css.map": "/becho-market-app/static/css/main.be230050.css.map",
-    "main.c2a6299f.js.map": "/becho-market-app/static/js/main.c2a6299f.js.map"
+    "main.c18d4f8e.js.map": "/becho-market-app/static/js/main.c18d4f8e.js.map"
   },
   "entrypoints": [
     "static/css/main.be230050.css",
-    "static/js/main.c2a6299f.js"
+    "static/js/main.c18d4f8e.js"
   ]
 }
