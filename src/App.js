@@ -7,18 +7,18 @@ function App() {
   const [customerName] = useState('ياسمين فؤاد');
 
 const categories = [
-  { id: 1, name: "برجر", img: process.env.PUBLIC_URL + "/images/borgr.jpg" },
-  { id: 2, name: "بيتزا", img: process.env.PUBLIC_URL + "/images/pizza.jpg" },
-  { id: 3, name: "مشويات", img: process.env.PUBLIC_URL + "/images/grills.jpg" },
-  { id: 4, name: "لحوم", img: process.env.PUBLIC_URL + "/images/meat.jpg" },
-  { id: 5, name: "شاورما", img: process.env.PUBLIC_URL + "/images/shawarma.jpg" },
-  { id: 6, name: "أكل بيتي", img: process.env.PUBLIC_URL + "/images/home-food.jpg" },
-  { id: 7, name: "حلويات", img: process.env.PUBLIC_URL + "/images/desserts.jpg" },
-  { id: 8, name: "سوبر ماركت", img: process.env.PUBLIC_URL + "/images/supermarket.jpg" },
-  { id: 9, name: "خضروات", img: process.env.PUBLIC_URL + "/images/vegetables.jpg" },
-  { id: 10, name: "فواكه", img: process.env.PUBLIC_URL + "/images/fruits.jpg" },
-  { id: 11, name: "صيدلية", img: process.env.PUBLIC_URL + "/images/pharmacy.jpg" },
-  { id: 12, name: "معجنات", img: process.env.PUBLIC_URL + "/images/baker.jpg" },
+  { id: 1, name: "لحوم", image: "images/borgr.jpg" }, // أو حسب مكانها
+  { id: 2, name: "مشويات", image: "images/meshwiyat.jpg" },
+  { id: 3, name: "بيتزا", image: "images/petza.jpg" },
+  { id: 4, name: "برجر", image: "images/burger-comb.jpg" },
+  { id: 5, name: "سوبر ماركت", image: "images/superma.jpg" },
+  { id: 6, name: "حلويات", image: "images/halwayat.jpg" },
+  { id: 7, name: "أكل بيتي", image: "images/homemad.jpg" },
+  { id: 8, name: "شاورما", image: "images/shwrmajpg.jpg" },
+  { id: 9, name: "معجنات", image: "images/stuffed-veggies.jpg" }, // أو الصورة المناسبة للممعجنات
+  { id: 10, name: "صيدلية", image: "images/pharmacy.jpg" },
+  { id: 11, name: "فواكه", image: "images/fruit.jpg" },
+  { id: 12, name: "خضروات", image: "images/grocery-bag.jpg" }
 ];
   
 
