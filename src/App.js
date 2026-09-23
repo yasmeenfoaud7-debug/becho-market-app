@@ -193,8 +193,7 @@ const categories = [
           onClick={() => setTab('profile')}
           style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'center', color: tab === 'profile' ? '#0b3b2c' : '#888', flex: 1 }}
         >
-          <div style={{ fontSize: '18px' }}>👤</div>
-          <span style={{ fontSize: '11px', fontWeight: tab === 'profile' ? 'bold' : 'normal' }}>حسابي</span>
+          
         </button>
       </nav>
 
