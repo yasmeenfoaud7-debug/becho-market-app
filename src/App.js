@@ -7,18 +7,18 @@ function App() {
   const [customerName] = useState('ياسمين فؤاد');
 
  const categories = [
-  { name: 'برجر', img: process.env.PUBLIC_URL + '/images/borgr.jpg' },
-  { name: 'بيتزا', img: process.env.PUBLIC_URL + '/images/petza.jpg' },
-  { name: 'مشويات', img: process.env.PUBLIC_URL + '/images/meshwiyat.jpg' },
-  { name: 'لحوم', img: process.env.PUBLIC_URL + '/images/meat.jpg' },
-  { name: 'شاورما', img: process.env.PUBLIC_URL + '/images/shwrma.jpg' },
-  { name: 'أكل بيتي', img: process.env.PUBLIC_URL + '/images/homemad.jpg' },
-  { name: 'حلويات', img: process.env.PUBLIC_URL + '/images/halwayat.jpg' },
-  { name: 'سوبر ماركت', img: process.env.PUBLIC_URL + '/images/superma.jpg' },
-  { name: 'معجنات', img: process.env.PUBLIC_URL + '/images/baker.jpg' },
-  { name: 'خضروات', img: process.env.PUBLIC_URL + '/images/vegetables.jpg' },
-  { name: 'فواكه', img: process.env.PUBLIC_URL + '/images/fruit.jpg' },
-  { name: 'صيدلية', img: process.env.PUBLIC_URL + '/images/pharmacy.jpg' },
+  { name: 'برجر', img: process.env.PUBLIC_URL + 'images/borgr.jpg' },
+  { name: 'بيتزا', img: process.env.PUBLIC_URL + 'images/petza.jpg' },
+  { name: 'مشويات', img: process.env.PUBLIC_URL + 'images/meshwiyat.jpg' },
+  { name: 'لحوم', img: process.env.PUBLIC_URL + 'images/meat.jpg' },
+  { name: 'شاورما', img: process.env.PUBLIC_URL + 'images/shwrma.jpg' },
+  { name: 'أكل بيتي', img: process.env.PUBLIC_URL + 'images/homemad.jpg' },
+  { name: 'حلويات', img: process.env.PUBLIC_URL + 'images/halwayat.jpg' },
+  { name: 'سوبر ماركت', img: process.env.PUBLIC_URL + 'images/superma.jpg' },
+  { name: 'معجنات', img: process.env.PUBLIC_URL + 'images/baker.jpg' },
+  { name: 'خضروات', img: process.env.PUBLIC_URL + 'images/vegetables.jpg' },
+  { name: 'فواكه', img: process.env.PUBLIC_URL + 'images/fruit.jpg' },
+  { name: 'صيدلية', img: process.env.PUBLIC_URL + 'images/pharmacy.jpg' },
 ];
   
 
@@ -53,7 +53,7 @@ function App() {
         overflow: 'hidden'
       }}>
         <img 
-          src="/images/grocery-bag.jpg" 
+          src={process.env.PUBLIC_URL + "/images/grocery-bag.jpg"}
           alt="First Order Offer" 
           style={{
             width: '100%',
@@ -116,18 +116,26 @@ function App() {
       <div style={{ marginBottom: '25px' }}>
         <h3 style={{ color: '#333', fontSize: '16px', marginBottom: '10px' }}>عروض مميزة لأجلك</h3>
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
-          
           <div style={{ background: '#fff', padding: '10px', borderRadius: '12px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', textAlign: 'center' }}>
-            <img src="/images/burger-comb.jpg" alt="عرض البرجر" style={{ width: '100%', height: '90px', objectFit: 'cover', borderRadius: '8px', display: 'block' }} />
-            <h4 style={{ fontSize: '13px', margin: '8px 0 4px 0', color: '#0b3b2c' }}>وجبة برجر دابل</h4>
-            <span style={{ fontSize: '12px', color: '#e74c3c', fontWeight: 'bold' }}>خصم 30%</span>
-          </div>
+  <img 
+    src={`${process.env.PUBLIC_URL}/images/burger-comb.jpg`} 
+    alt="عرض البرجر" 
+    style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '8px' }} 
+  />
+  <h4 style={{ fontSize: '13px', margin: '8px 0 4px 0', color: '#0b3b2c' }}>وجبة برجر دابل</h4>
+  <span style={{ fontSize: '12px', color: '#e74c3c', fontWeight: 'bold' }}>خصم 30%</span>
+</div>
 
-          <div style={{ background: '#fff', padding: '10px', borderRadius: '12px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', textAlign: 'center' }}>
-            <img src="/images/stuffed-veggies.jpg" alt="صينية المحشي" style={{ width: '100%', height: '90px', objectFit: 'cover', borderRadius: '8px', display: 'block' }} />
-            <h4 style={{ fontSize: '13px', margin: '8px 0 4px 0', color: '#0b3b2c' }}>صينية محشي بيتي</h4>
-            <span style={{ fontSize: '12px', color: '#27ae60', fontWeight: 'bold' }}>طازج وساخن</span>
-          </div>
+<div style={{ background: '#fff', padding: '10px', borderRadius: '12px', boxShadow: '0 2px 8px rgba(0,0,0,0.05)', textAlign: 'center' }}>
+  <img 
+    src={`${process.env.PUBLIC_URL}/images/stuffed-veggies.jpg`} 
+    alt="صينية المحشي" 
+    style={{ width: '100%', height: '120px', objectFit: 'cover', borderRadius: '8px' }} 
+  />
+  <h4 style={{ fontSize: '13px', margin: '8px 0 4px 0', color: '#0b3b2c' }}>صينية محشي بيتي</h4>
+  <span style={{ fontSize: '12px', color: '#27ae60', fontWeight: 'bold' }}>طازج وساخن</span>
+</div>
+          
 
         </div>
       </div>
