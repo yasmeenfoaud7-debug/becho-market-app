@@ -6,19 +6,19 @@ function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [customerName] = useState('ياسمين فؤاد');
 
- const categories = [
-  { name: 'برجر', img: process.env.PUBLIC_URL + 'images/borgr.jpg' },
-  { name: 'بيتزا', img: process.env.PUBLIC_URL + 'images/petza.jpg' },
-  { name: 'مشويات', img: process.env.PUBLIC_URL + 'images/meshwiyat.jpg' },
-  { name: 'لحوم', img: process.env.PUBLIC_URL + 'images/meat.jpg' },
-  { name: 'شاورما', img: process.env.PUBLIC_URL + 'images/shwrma.jpg' },
-  { name: 'أكل بيتي', img: process.env.PUBLIC_URL + 'images/homemad.jpg' },
-  { name: 'حلويات', img: process.env.PUBLIC_URL + 'images/halwayat.jpg' },
-  { name: 'سوبر ماركت', img: process.env.PUBLIC_URL + 'images/superma.jpg' },
-  { name: 'معجنات', img: process.env.PUBLIC_URL + 'images/baker.jpg' },
-  { name: 'خضروات', img: process.env.PUBLIC_URL + 'images/vegetables.jpg' },
-  { name: 'فواكه', img: process.env.PUBLIC_URL + 'images/fruit.jpg' },
-  { name: 'صيدلية', img: process.env.PUBLIC_URL + 'images/pharmacy.jpg' },
+const categories = [
+  { id: 1, name: "برجر", img: process.env.PUBLIC_URL + "/images/burger.png" },
+  { id: 2, name: "بيتزا", img: process.env.PUBLIC_URL + "/images/pizza.png" },
+  { id: 3, name: "مشويات", img: process.env.PUBLIC_URL + "/images/grills.png" },
+  { id: 4, name: "لحوم", img: process.env.PUBLIC_URL + "/images/meat.png" },
+  { id: 5, name: "شاورما", img: process.env.PUBLIC_URL + "/images/shawarma.png" },
+  { id: 6, name: "أكل بيتي", img: process.env.PUBLIC_URL + "/images/home-food.png" },
+  { id: 7, name: "حلويات", img: process.env.PUBLIC_URL + "/images/desserts.png" },
+  { id: 8, name: "سوبر ماركت", img: process.env.PUBLIC_URL + "/images/supermarket.png" },
+  { id: 9, name: "خضروات", img: process.env.PUBLIC_URL + "/images/vegetables.png" },
+  { id: 10, name: "فواكه", img: process.env.PUBLIC_URL + "/images/fruits.png" },
+  { id: 11, name: "صيدلية", img: process.env.PUBLIC_URL + "/images/pharmacy.png" },
+  { id: 12, name: "معجنات", img: process.env.PUBLIC_URL + "/images/bakery.png" },
 ];
   
 
