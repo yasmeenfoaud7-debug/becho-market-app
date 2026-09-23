@@ -12,7 +12,7 @@ const categories = [
   { name: 'بيتزا', img: 'images/petza.jpg' },
   { name: 'مشويات', img: 'images/meshwiyat.jpg' },
   { name: 'لحوم', img: 'images/meat.jpg' },
-  { name: 'شاورما', img: 'images/shwrmajpg.jpg' },
+  { name: 'شاورما', img: 'images/shwrma.jpg' },
   { name: 'أكل بيتي', img: 'images/homemad.jpg' },
   { name: 'حلويات', img: 'images/halwayat.jpg' },
   { name: 'سوبر ماركت', img: 'images/superma.jpg' },
