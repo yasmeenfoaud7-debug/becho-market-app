@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   const [tab, setTab] = useState('home');
   const [searchQuery, setSearchQuery] = useState('');
-  const [customerName] = useState('ياسمين فؤاد');
+  const [customerName] = useState();
 
 
 const categories = [
@@ -17,7 +17,7 @@ const categories = [
   { name: 'حلويات', img: 'images/halwayat.jpg' },
   { name: 'سوبر ماركت', img: 'images/superma.jpg' },
   { name: 'معجنات', img: 'images/stuffed-veggies.jpg' },
-  { name: 'خضروات', img: 'images/grocery-bag.jpg' },
+  { name: 'خضروات', img: 'images/vegetables.jpg' },
   { name: 'فواكه', img: 'images/fruit.jpg' },
   { name: 'صيدلية', img: 'images/pharmacy.jpg' }
 ];
@@ -141,7 +141,7 @@ const categories = [
 
         </div>
       </div>
-{/* شريط التنقل السفلي */}
+
       <nav style={{
         position: 'fixed',
         bottom: 0,
